@@ -243,7 +243,7 @@ const [activeTab, setActiveTab] = useState<Tab>('home');
         <View style={styles.successOverlay}>
           <BlurView intensity={90} style={styles.blurContainer}>
             <LottieView
-              source={require('../assets/animations/success.json')}
+              source={require('../../assets/animations/success.json')}
               autoPlay
               loop={false}
               style={{ width: 150, height: 150 }}
@@ -292,7 +292,7 @@ const [activeTab, setActiveTab] = useState<Tab>('home');
   }}
 >
   <View style={styles.logoContainer}>
-    <Image source={require('../assets/ai-brain-logo.png')} style={styles.logo} />
+    <Image source={require('../../assets/ai-brain-logo.png')} style={styles.logo} />
   </View>
 
   <Text style={styles.welcomeText}>Welcome to</Text>
@@ -360,7 +360,7 @@ const [activeTab, setActiveTab] = useState<Tab>('home');
                   ]}
                 >
                   <Image
-                    source={require('../assets/ai-learning-illustration.png')}
+                    source={require('../../assets/ai-learning-illustration.png')}
                     style={styles.heroImage}
                     resizeMode="contain"
                   />
