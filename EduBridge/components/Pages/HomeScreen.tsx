@@ -64,7 +64,6 @@ const HomeAndRegister = () => {
           <View style={styles.socialButtonsContainer}>
             <SocialButton icon="google" backgroundColor="#DB4437" onPress={() => {}} />
             <SocialButton icon="facebook" backgroundColor="#3b5998" onPress={() => {}} />
-            <SocialButton icon="apple" backgroundColor="#000000" onPress={() => {}} />
           </View>
 
           <View style={styles.divider}>
